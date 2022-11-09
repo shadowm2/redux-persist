@@ -120,7 +120,7 @@ const App = () => {
 
 #### `persistReducer(config, reducer)`
   - arguments
-    - [**config**](https://github.com/rt2zz/redux-persist/blob/master/src/types.js#L13-L27) *object*
+    - [**config**](https://github.com/rt2zz/redux-persist/blob/master/types/types.d.ts#L26-L48) *object*
       - required config: `key, storage`
       - notable other config: `whitelist, blacklist, version, stateReconciler, debug`
     - **reducer** *function*
